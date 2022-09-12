@@ -1,0 +1,11 @@
+body {
+	max-width: 70%;
+	margin: 0 auto;
+	background-color: rgb(245, 236, 184);
+	}
+	.text{
+		color: red;
+	}
+	.center{
+		text-align: center;
+	}
