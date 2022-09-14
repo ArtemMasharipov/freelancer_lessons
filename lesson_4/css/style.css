@@ -57,7 +57,7 @@ body {
 	}
 	.important_paragraph{
 		background-color: rgb(195, 182, 252);
-		font-family: "Lato";
+		font-family: "Larsseit";
 	}
 	.title_h1{
 		font-family: "Roboto";
@@ -73,7 +73,7 @@ body {
 	}
 	.center,
 	p{
-		font-family: "Larsseit";
+		font-family: "Lato";
 	}
 h1,h2,p{
 		margin-bottom: 1em;
