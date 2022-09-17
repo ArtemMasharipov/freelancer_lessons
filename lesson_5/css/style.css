@@ -2,7 +2,7 @@
 @import url('reset.css');
 /* Підключення шрифту Montserrat Alternates з ресурсу Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@0;1&display=swap');
-/* Підключення сторонньго шрифту ChareInk */
+/* Підключення стороннього шрифту ChareInk */
 @font-face{
 	font-family: 'ChareInk';
 	src: url('../fonts/ChareInk-Italic.woff2') format('woff2'), url('../fonts/ChareInk-Italic.woff') format('woff');
