@@ -4,12 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 	body {
-		max-width: 850px;
-		margin: 0 auto;
 		font-family: "Lato", serif;
 		background-color: #d9dceb;
 		}
 	.task_1{
+		max-width: 850px;
+		margin: 0 auto;
 		background: rgb(255, 255, 255);
 		border: 1px solid black;
 		margin-bottom: 100px;
@@ -99,23 +99,30 @@
 		
 	.rainbow_r{
 		background-color: red;
-		  }
+		color: red;
+		}
 	.rainbow_o{
 		background-color: orange;
-		  }
+		color: orange;
+	}
 	.rainbow_y{
 		background-color: yellow;
-		  }
+		color: yellow;
+	}
 	.rainbow_g{
 		background-color: green;
-		  }
+		color: green;
+	}
 	.rainbow_b{
 		background-color: blue;
-		  }
+		color: blue;
+	}
 	.rainbow_i{
 		background-color: indigo;
-		  }
+		color: indigo;
+	}
 	.rainbow_v{
 		background-color: violet;
-		  }
+		color: violet;
+	}
 
