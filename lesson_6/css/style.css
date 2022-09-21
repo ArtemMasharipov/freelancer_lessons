@@ -87,7 +87,7 @@
 		}
 	.task_2{
 		margin: 0 auto 50px;
-		width: 600px;
+		max-width: 70%;
 		overflow: hidden;
 		border-radius: 55%;
 		box-shadow: 20px 20px 20px gray;
