@@ -99,30 +99,23 @@
 		
 	.rainbow_r{
 		background-color: red;
-		color: red;
-		}
+	}
 	.rainbow_o{
 		background-color: orange;
-		color: orange;
 	}
 	.rainbow_y{
-		background-color: yellow;
-		color: yellow;
+		background-color: yellow;	
 	}
 	.rainbow_g{
-		background-color: green;
-		color: green;
+		background-color: green;		
 	}
 	.rainbow_b{
-		background-color: blue;
-		color: blue;
+		background-color: blue;		
 	}
 	.rainbow_i{
 		background-color: indigo;
-		color: indigo;
 	}
 	.rainbow_v{
-		background-color: violet;
-		color: violet;
+		background-color: violet;		
 	}
 
