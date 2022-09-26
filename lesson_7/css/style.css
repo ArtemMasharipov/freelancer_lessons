@@ -56,6 +56,7 @@
 	}
 	p.unimportant_text_p{
 		margin-bottom: 30px;
+		line-height: 1.6;
 	}
 	.important_text > p{
 		padding-left: 58px;
