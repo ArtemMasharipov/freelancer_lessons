@@ -40,7 +40,7 @@
 		line-height: 1.5;
 		color: #1E212C;
 		}
-	.main > p.important_text{
+	.main_container p.important_text{
 		margin-bottom: 24px;
 	}
 	.unimportant_text,
@@ -54,7 +54,7 @@
 	div.unimportant_text{
 		margin-bottom: 48px;
 	}
-	p.unimportant_text{
+	p.unimportant_text_p{
 		margin-bottom: 30px;
 	}
 	.important_text > p{
