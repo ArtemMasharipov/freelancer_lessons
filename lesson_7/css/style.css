@@ -140,7 +140,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', end
 		background-size: contain, contain, contain;
 	}
 	.bg_position{
-		background: url('../img/vid_iz_okna.jpg') 0 0 / cover no-repeat;
+		background: url('../img/window.jpg') 0 0 / cover no-repeat;
 		height: 800px;
 		background-position: 50% 90%;
 		background-attachment: fixed;
