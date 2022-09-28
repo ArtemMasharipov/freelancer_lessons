@@ -53,8 +53,8 @@ p{
 div.paragraph_text{
 	margin-bottom: 48px;
 }
-.list_text li{
-	padding-left: 32px;
+.list_text ul{
+margin-left: 48px;
 }
 .list_text{
 	margin-bottom: 50px;
@@ -99,7 +99,8 @@ ul li:not(:last-child){
 	width: 16px;
 	height: 16px;
 	display: inline-block;
-	margin-right: 16px;
+	padding-left: 32px;
+	margin-left: -32px;
 	transition: all 0.8s ease 0s;
 	}
 	.list_text ul li:hover::before{
