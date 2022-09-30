@@ -53,8 +53,8 @@ p{
 div.paragraph_text{
 	margin-bottom: 48px;
 }
-.list_text ul{
-margin-left: 48px;
+div.list_text{
+padding-left: 32px;
 }
 .list_text{
 	margin-bottom: 50px;
