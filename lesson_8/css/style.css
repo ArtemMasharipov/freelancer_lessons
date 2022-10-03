@@ -89,19 +89,19 @@ padding-left: 32px;
 	text-transform: uppercase;
 }
 /* Відпрацювання навичок ситлізіції з використанням псевдоклассів та псевдоелементів */
-ul li:not(:last-child){
-	margin-bottom: 4px;
-}
+	ul li:not(:last-child){
+		margin-bottom: 4px;
+	}
 
-.list_text ul li::before{
-	background: url('../img/icon/check.svg') 0 0 no-repeat;
-	content: "";
-	width: 16px;
-	height: 16px;
-	display: inline-block;
-	padding-left: 32px;
-	margin-left: -32px;
-	transition: all 0.8s ease 0s;
+	.list_text ul li::before{
+		background: url('../img/icon/check.svg') 0 0 no-repeat;
+		content: "";
+		width: 16px;
+		height: 16px;
+		display: inline-block;
+		padding-left: 32px;
+		margin-left: -32px;
+		transition: all 0.8s ease 0s;
 	}
 	.list_text ul li:hover::before{
 		transform: scale(1.5);
@@ -140,7 +140,7 @@ ul li:not(:last-child){
 		text-transform: uppercase;
 		text-shadow: 3px 2px 2px #cd76ac;
 	}
-		.container div{
+	.container div{
 		background: rgb(255, 252, 219);
 		margin-bottom: 20px;
 		min-width: auto;
@@ -149,40 +149,53 @@ ul li:not(:last-child){
 		border-radius: 15px;
 		padding: 5px;
 		}
-		.container>p{
+	.container>p{
 		margin-bottom: 3px;
 		text-align: center;
 		color: gray;
 		font-size: 22px;
 		}
 		/* :hover */
-		.container div:nth-child(2):hover{
+	.container div:nth-child(2):hover{
 		background: green;
 		transform: scale(1.05);
 		}
-		.container a:hover{
+	.container a:hover{
 		text-decoration: underline;
 		}
 		/* :active */
-		.container div:nth-child(4):active{
+	.container div:nth-child(4):active{
 		background: red;
 		transition: all 0.8s ease 0s;
 		}
 		/* :visited */
-		.container a:visited{
+	.container a:visited{
 		color: rgb(125, 117, 219);
 		}
 		/* :focus */
-		.focus a:focus{
+	.focus a:focus{
 		outline: 2px solid red;
 		background: rgb(243, 229, 229);
 		}
 		/* Випадаючий список */
-		ul ul{
-			display: none;
+	.hw_list{
+		display: inline-block;
 		}
-		ul li:hover ul{
-			padding-left: 15px;
-			display: block;
-			color: red;
+	.hw_list	li a {
+		padding: 10px 15px;
+		border-radius: 10px;
+		background-color: rgba(48, 162, 90, 0.253);
+		text-align: center;
+		display: inline-block;
+		margin-bottom: 5px;
+		}
+	.hw_list	li a:hover {
+		background-color: rgba(66, 177, 147, 0.6);
+		}		
+	.hw_list li .sub_list{
+		display: none;
+		}
+	.hw_list li:hover .sub_list{
+		display: block;
+		padding-left: 15px;
 		}
