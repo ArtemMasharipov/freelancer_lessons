@@ -1,0 +1,104 @@
+/* Підключення файлу обнулення стилів */
+@import url('reset.css');
+.game > p{
+	text-align: center;
+	font-size: 32px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: rgb(11, 100, 72);
+	text-shadow: 3px 5px 5px rgb(11, 100, 72);
+	margin-bottom: 10px;
+}
+.game-container{
+	margin: 0 auto;
+	padding: 10px;
+	max-width: 700px;
+	max-height: 670px;
+	border: 2px solid green;
+	border-radius: 10px;
+	background: rgb(221, 254, 214);
+	box-shadow: 5px 5px 5px green;
+	}
+	[class*="game-item_"]{
+		background: green;
+	}
+.game-item_1{
+	max-width: 100px;
+	min-height: 100px;
+	border-radius: 50%;
+	background-color: rgb(23, 180, 73);
+	font-weight: 900;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: rgb(92, 73, 231);
+	text-align: center;
+	}
+.game-item_1 p{
+	padding-top: 20px;
+}
+.game-item_2{
+	width: 50px;
+	height: 50px;   
+	margin-left: 25px;
+	border-radius: 10px 10px 0 0;
+	}
+.game-item_3{
+	width: 610px;
+	height: 50px;   
+	margin-left: 25px;
+	border-radius: 0 100px;
+	}
+.game-item_4{
+	width: 50px;
+	height: 80px;   
+	margin-left: 585px;
+	}
+	
+.game-item_5{
+	width: 610px;
+	height: 50px;   
+	margin-left: 25px;
+	border-radius: 100px 0 100px;
+	
+}
+.game-item_6{
+	width: 50px;
+	height: 80px;   
+	margin-left: 25px;
+	}
+.game-item_7{
+	width: 610px;
+	height: 50px;   
+	margin-left: 25px;
+	border-radius: 0 100px;
+	}
+.game-item_8{
+	width: 25px;
+	height: 150px;   
+	margin-left: 610px;
+	}
+.game-item_9{
+	width: 550px;
+	height: 25px;   
+	margin-left: 85px;
+	border-radius: 50px 0 100px 50px;
+	background: url('../img/fire.gif') 0 0/100% 100%;
+	}
+.game-item_10{
+	max-width: 80px;
+	min-height: 100px;
+	margin-top: -80px; 
+	margin-left: 5px;  
+	border: 1px solid gray;
+	background: url('../img/close_door.png') 0 0/100% 100% no-repeat;
+	}
+.game-container div:not(:first-child){
+	visibility: hidden;
+	}
+.game-container div:hover + div,
+.game-container div:hover{
+	visibility: visible;
+	}
+.game-item_10:hover{
+	background: url('../img/open_door.png') 0 0/100% 100% no-repeat;
+	}
