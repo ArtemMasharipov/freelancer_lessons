@@ -30,7 +30,7 @@ header{
 	padding: 10px;
 	text-transform: uppercase;
 }
-.element_belonging div{
+.element_belonging div:not(:last-child){
 	margin-bottom: 15px;
 }
 .content_img{
