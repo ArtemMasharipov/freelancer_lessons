@@ -1,0 +1,103 @@
+/* Підключення файлу обнулення стилів */
+@import url('reset.css');
+/* Підключення шрифтів Lato(Regular, Bold, Black) з ресурсу Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+	font-family: "Lato", serif;
+	background-color: #d9dceb;
+	}
+.project_container{
+	background: white;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	max-width: 1000px;
+	padding: 10px;
+	border-radius: 5px;
+}
+header{
+	font-size: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	color: rgb(54, 113, 15);
+	}
+.element_belonging{
+	text-align: center;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+.element_belonging div{
+	margin-bottom: 15px;
+}
+.content_img{
+	margin: 0 auto;
+	width: 150px;
+	height: 20px;
+	background: red;
+	border-radius: 10px;
+	
+}
+.content_img:hover{
+	box-shadow: 3px 3px 3px red;;
+}
+.decoration_img{
+	margin: 0 auto;
+	width: 150px;
+	height: 20px;
+	background: green;
+	border-radius: 10px;
+	
+}
+.decoration_img:hover{
+	box-shadow: 3px 3px 3px  green;
+}
+.icons{
+	margin: 0 auto;
+	width: 150px;
+	height: 20px;
+	background: blue;
+	border-radius: 10px;
+}
+.icons:hover{
+	box-shadow: 3px 3px 3px  blue;
+}
+[class*="item_"]{
+	margin: 0 auto;
+	max-width: 800px;
+	height: 650px;
+	border: 3px solid gray;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px gray;
+}
+[class*="item_"]:not(:last-child){
+	margin-bottom: 30px;
+}
+.item_1{
+	background: url('../img/screenshot_1.png') 50% / contain no-repeat;
+}
+.item_2{
+	background: url('../img/screenshot_2.png') 50%  / contain no-repeat;
+}
+.item_3{
+	background: url('../img/screenshot_3.png') 50% / contain no-repeat;
+}
+.item_4{
+	background: url('../img/screenshot_4.png') 50%  / contain no-repeat;
+}
+.item_5{
+	background: url('../img/screenshot_5.png') 50%  / contain no-repeat;
+}
+.item_6{
+	background: url('../img/screenshot_6.png') 50%  / contain no-repeat;
+}
+.item_7{
+	background: url('../img/screenshot_7.png') 50%  / contain no-repeat;
+}
+footer{
+	text-align: center;
+	text-transform: uppercase;
+}
