@@ -29,6 +29,7 @@ header{
 	max-width: 800px;
 	padding: 10px;
 	text-transform: uppercase;
+	margin-bottom: 15px;
 }
 .element_belonging div:not(:last-child){
 	margin-bottom: 15px;
