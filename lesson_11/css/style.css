@@ -1,0 +1,298 @@
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.wrapper {
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+	background: url('../img/road_desert.jpg') 0 0 / 1550px no-repeat;
+}
+.header{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	padding: 25px;
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,66,1) 35%, rgba(0,212,255,1) 100%);
+	z-index: 10;
+	border: 2px solid black;
+}
+.header__container {
+	max-width: 800px;
+	margin: 0 auto;
+	}
+	.header__text{
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+	color: white;
+	text-shadow: 3px 3px 3px;
+	text-transform: uppercase;
+	}
+.truck__container {
+	position: relative;
+	left: 210px;
+	top: 175px;
+	}
+.truck__parts-1 {
+	height: 100px;
+	width: 68px;
+	border-radius: 8px;
+	position: absolute;
+	top: 350px;
+	left: 385px;	
+	background: rgb(24, 22, 22);
+	
+}
+.truck__parts-2 {
+	height: 100px;
+	width: 68px;
+	border-radius: 8px;
+	position: absolute;
+	top: 350px;
+	left: 685px;	
+	background: black;
+}
+.truck__parts-3 {
+	height: 40px;
+	width: 407px;
+	border-radius: 15px;
+	position: absolute;
+	top: 350px;
+	left: 365px;
+	background: gray;
+z-index: 1;
+box-shadow: 10px 40px 30px;
+}
+.truck__parts-4 {
+height: 270px;
+width: 274px;
+position: absolute;
+top: 80px;
+left: 430px;
+border-radius: 35px 35px 0 0;
+background:  rgb(225, 56, 10);
+z-index: 2;
+}
+.truck__parts-5 {
+	height: 168px;
+	width: 275px;
+	position: absolute;
+	top: 182px;
+	left: 430px;
+	border-radius: 25% 25% 10% 10% / 45% 45% 0% 0% ;
+	background: rgb(218, 123, 94);
+	z-index: 2;
+}
+.truck__parts-6 {
+	height: 86px;
+	width: 258px;
+	position: absolute;
+	top: 89px;
+	left: 438px;
+	border-radius: 20px;
+	background: rgb(27, 27, 78);
+	z-index: 2;
+	
+}
+.truck__parts-7 {
+	height: 165px;
+	width: 193px;
+	position: absolute;
+	top: 185px;
+	left: 471px;
+	border-radius: 35px 35px 0 0;
+	border: 20px solid rgb(63, 61, 61);
+	background: url('../img/bg-part.png');
+	z-index: 2;
+}
+.truck__parts-8 {
+	height: 301px;
+	width: 333px;
+	position: absolute;
+	top: -5px;
+	left: 400px;
+	border-radius: 45px;
+	background: rgb(51, 42, 42);
+	z-index: 0;
+	
+}
+.truck__parts-9 {
+height: 70px;
+width: 90px;
+position: absolute;
+top: 280px;
+left: 381px;
+border-radius: 75px 0 0 0;
+background:   rgb(225, 56, 10);
+z-index: 2;
+}
+.truck__parts-10 {
+height: 70px;
+width: 90px;
+position: absolute;
+top: 280px;
+left: 664px;
+border-radius: 0 75px 0 0;
+background: rgb(225, 56, 10);
+z-index: 2;
+}
+.truck__parts-11 {
+	height: 146px;
+	width: 15px;
+	position: absolute;
+	top: 105px;
+	left: 419px;
+	border-radius: 80px 0 0 80px;
+	background: gray;
+}
+.truck__parts-12 {
+	height: 146px;
+	width: 15px;
+	position: absolute;
+	top: 105px;
+	left: 700px;
+	border-radius: 0 80px 80px 0;
+	background: gray;
+}
+.truck__parts-13 {
+	height: 70px;
+	width: 261px;
+	position: absolute;
+	top: 30px;
+	left: 438px;
+	border-radius: 13% 13% 10% 10% / 100% 100% 0% 0%;
+	background: rgb(240, 201, 109);
+	z-index: 1;
+}
+.truck__parts-14 {
+	height: 135px;
+	width: 15px;
+	position: absolute;
+	top: -20px;
+	left: 425px;
+	border-radius: 50px;
+	background: gray;
+	z-index: 0;
+}
+.truck__parts-16 {
+	height: 135px;
+	width: 15px;
+	position: absolute;
+	top: -20px;
+	left: 695px;
+	border-radius: 50px;
+	background: gray;
+	z-index: 0;
+}
+.truck__parts-17 {
+	height: 15px;
+	width: 13px;
+	position: absolute;
+	top: -18px;
+	left: 426px;
+	border-radius: 50px;
+	background: rgb(0, 0, 0);
+	z-index: 0;
+	
+}
+.truck__parts-18 {
+	height: 15px;
+	width: 13px;
+	position: absolute;
+	top: -18px;
+	left: 696px;
+	border-radius: 50px;
+	background: rgb(0, 0, 0);
+	z-index: 0;
+}
+.truck__parts-19 {
+	height: 80px;
+	width: 40px;
+	position: absolute;
+	top: 120px;
+	left: 370px;
+	border-radius: 10px;
+	background: rgb(218, 32, 32);
+}
+.truck__parts-20 {
+	height: 80px;
+	width: 40px;
+	position: absolute;
+	top: 120px;
+	left: 723px;
+	border-radius: 10px;
+	background: rgb(218, 32, 32);
+}
+.truck__parts-21 {
+	height: 15px;
+	width: 40px;
+	position: absolute;
+	top: 155px;
+	left: 400px;
+	border-radius: 10px;
+	background: rgb(218, 32, 32);
+}
+.truck__parts-22 {
+	height: 15px;
+	width: 40px;
+	position: absolute;
+	top: 155px;
+	left: 700px;
+	border-radius: 10px;
+	background: rgb(218, 32, 32);
+}
+.truck__parts-23 {
+	height: 45px;
+	width: 60px;
+	position: absolute;
+	top: 295px;
+	left: 405px;
+	border-radius: 10px;
+	border: 1px solid black;
+	background: rgb(241, 227, 146);
+	z-index: 2;
+}
+.truck__parts-24 {
+	height: 45px;
+	width: 60px;
+	position: absolute;
+	top: 295px;
+	left: 669px;
+	border-radius: 10px;
+	border: 1px solid black;
+	background: rgb(241, 227, 146);
+	z-index: 2;
+}
+.truck__parts-25 {
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	border-radius: 30px 30px 0 0;
+	background: orange;
+	z-index: 2;
+}
+.truck__parts-25--one-position {
+	top: 65px;
+	left: 460px;
+
+}
+.truck__parts-25--two-position {
+	top: 65px;
+	left: 510px;
+}
+.truck__parts-25--three-position {
+	top: 65px;
+	left: 605px;
+}
+.truck__parts-25--four-position {
+	top: 65px;
+	left: 660px;
+}
+.truck__parts-30 {
+}
+.truck__parts-31 {
+}
+.truck__parts-32 {
+}
