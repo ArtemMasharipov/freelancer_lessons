@@ -336,7 +336,7 @@ display: flex;
   	align-self: start;
 }
 .text-body__header {
-	margin-bottom: 40px;
+	padding-bottom: 40px;
 }
 .text-body__header h6 {
 	color: #1E212C;
