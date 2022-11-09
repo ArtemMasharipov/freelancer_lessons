@@ -316,6 +316,7 @@ display: flex;
 .page__part-two {
    padding: 180px 0;
    position: relative;
+
 }
 .body-two__content {
 	position: relative;
@@ -334,7 +335,9 @@ display: flex;
 	padding-left: 135px;
   	align-self: start;
 }
-
+.text-body__header {
+	margin-bottom: 40px;
+}
 .text-body__header h6 {
 	color: #1E212C;
 	font-weight: 700;
@@ -346,7 +349,6 @@ margin-bottom: 8px;
 	color: #1E212C;
 	font-weight: 900;
 	font-size: 46px;
-	margin-bottom: 40px;
 	line-height: 1.3;
 }
 
