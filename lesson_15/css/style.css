@@ -350,18 +350,18 @@ margin-bottom: 8px;
 	line-height: 1.3;
 }
 
-.list-text__items {
+.list-text {
 margin-bottom: 22px;
 }
-.list-text__items li {
+.list-text li {
 	position: relative;
 	line-height: 1.6;
 	padding-left: 32px;
 }
-.list-text__items li:not(:last-child){
+.list-text li:not(:last-child){
 	margin-bottom: 12px;
 }
-.list-text__items li::before {
+.list-text li::before {
 	content: "";
    width: 16px;
    height: 16px;
