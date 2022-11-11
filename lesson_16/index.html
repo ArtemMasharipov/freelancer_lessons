@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<h1>УРОК №16 (ФОРМИ)</h1>
+		</header>
+		<main class="main">
+			<div class="forms-block">
+				<div class="forms-block__container">
+					<div class="forms-block__body body-forms">
+						<div class="body-forms__image">
+							<img src="img/girl__illustration.svg" alt="Girl decor image">
+						</div>
+						<div class="body-forms__items items-body">
+							<div class="items-body__header header-body">
+								<h6>Any questions?</h6>
+								<h2>Drop us a line</h2>
+							</div>
+							<form action="#" class="items-body__item form">
+								<div class="form__info">
+									<!-- First name---------------------------------------------------------------------->
+									<div class="form__line">
+										<label for="first-name" class="form__label">First Name*</label>
+										<input id="first-name" required autocomplete="off" type="text" name="name"
+											placeholder="Your first name" class="form__input">
+									</div>
+									<!-- Last name---------------------------------------------------------------------->
+									<div class="form__line">
+										<label for="last-name" class="form__label">Last Name*</label>
+										<input id="last-name" required autocomplete="off" type="text" name="last-name"
+											placeholder="Your last name" class="form__input">
+									</div>
+									<!--Email---------------------------------------------------------------------->
+									<div class="form__line">
+										<label class="form__label" for="email-01">Email*</label>
+										<input class="form__input" id="email-01" autocomplete="off"
+											placeholder="Your working email" name="mail" type="email">
+									</div>
+									<!--Phone---------------------------------------------------------------------->
+									<div class="form__line">
+										<label class="form__label" for="phone-01">Phone</label>
+										<input class="form__input" id="phone-01" autocomplete="off"
+											placeholder="Your phone number" name="phone" type="tel">
+									</div>
+									<!--Textarea---------------------------------------------------------------------->
+									<div class="form__line form__area--text-area">
+										<label class="form__label" for="message-01">Message*</label>
+										<textarea autocomplete="off" id="message-01" name="message" class="form__area"
+											placeholder="Your message"></textarea>
+									</div>
+								</div>
+								<!--Checkbox---------------------------------------------------------------------->
+								<div class="form__submit">
+									<div class="form__checkbox checkbox">
+										<input id="ckb-01" autocomplete="off" type="checkbox" value="yes" name="checkbox"
+											class="checkbox__input">
+										<label for="ckb-01" class="checkbox__label"><span class="checkbox__text">I agree to
+												receive communications from Createx Online School</span></label>
+									</div>
+									<!--Button---------------------------------------------------------------------->
+									<button class="form__button button" type="submit"><span>Send
+											message</span></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+
+</html>
