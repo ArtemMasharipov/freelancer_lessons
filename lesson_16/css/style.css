@@ -174,11 +174,11 @@ h1{
 	opacity: 1;
 }
 .form__button {
-	flex: 1 1 auto;
+	flex: 1 1 48.22%;
 }
 .form__checkbox {
 	padding-right: 50px;
-	flex: 1 1 44%;
+	flex: 1 1 51.77%;
 }
 .checkbox {
 	position: relative;
