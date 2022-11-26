@@ -270,7 +270,7 @@ display: flex;
 		font-size: 45px;
   }
 }
-@media (max-width: 411px) {
+@media (max-width: 416px) {
 .decor-main {
 	display: none;
 }
