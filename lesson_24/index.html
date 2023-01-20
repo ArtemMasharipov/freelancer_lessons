@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 24</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<h1>ДЗ. УРОК №23 (Основи JavaScript. Частина 3) </h1>
+		</header>
+		<main class="main">
+			<div class="homework">
+				<div class="homework__container">
+					<div class="homework__body">
+						<div class="homework__video-one">
+							<h2>Видео 1. Функции в JAVASCRIPT. Стрелочные функции, рекурсия, планирование: setTimeout и
+								setInterval.</h2>
+							<p><mark>Задача</mark> 1. В консоль першим виведеться <mark>Коля</mark>, тому що у функції showName
+								вказана затримка на виконання 0(фактична 4ms, згідно документації <a target="_blank"
+									href="https://developer.mozilla.org/ru/docs/Web/API/setTimeout">https://developer.mozilla.org</a>
+								).</p>
+							<p><mark>Задача</mark> 2. Виклик функції вірний. Функція може виклакатись до, або після її об'яви.
+							</p>
+							<p><mark>Задача</mark> 3. Функція викликана не вірно, тому що йде звернення до змінної до її
+								об'яви, якій присвоєно функцію.</p>
+							<p><mark>Задача</mark> 4. Для вирішення проблеми <mark>Error (showMessage is not defined)</mark>
+								потрібно виклик функції showMessage(); помістити всередину тіла інструкції if, де виклик функції
+								опиться на одному рівні з самою функцією.</p>
+						</div>
+						<div class="homework__video-two">
+							<h2>Видео 2. Массивы в JAVASCRIPT. Методы массивов. Редактирование, поиск, сортировка. Уроки
+								JavaScript с нуля.</h2>
+							<p><mark>Задача</mark> 1. В консоль ми отримаємо число 4. Так як ми присвоїли змінній newArr
+								значення змінної arr(яка містить масив довжиною в 3 елементи) та за допомогою методу push додали
+								в кінець масиву ще один елемент(4й) 'Петя'. </p>
+							<p><mark>Задача</mark> 5. На початку роботи методу arrTwo.reduce не вказано початкове значення
+								previousValue, тому воно буде дорівнювати першому елементу масива(previousValue=9). </p>
+						</div>
+						<div class="homework__video-three">
+							<h2>Видео 3. JavaScript Document object model (DOM) за час. Изменение HTML CSS. Атрибуты и
+								свойства. Окружение.</h2>
+							<p><mark>Задача</mark> 1. Отримати в змінну елемент з атрибутом data-say-hi та прочитати значення
+								цього атрибуту. </p>
+							<div data-say-hi="yes">Привет!</div>
+							<p><mark>Задача</mark> 2. Отримати в змінну елемент з Йончи. </p>
+							<ul>
+								<li>Корчи</li>
+								<li>Йончи</li>
+							</ul>
+							<p><mark>Задача</mark> 3. Отримати в змінну колекцію з класом like.</p>
+							<div class="like"></div>
+							<div class="subscribe"></div>
+							<div class="like subscribe"></div>
+							<p><mark>Задача</mark> 4. Видасть помилку в консоль, коли ми звертаємось до всіх тегів ul через
+								document.querySelector<mark>All</mark>('ul'). Але якщо звернутись до конкретного об'єкту, та
+								коли ми вказуємо значення 'beforeend', то об'єкт (який ми додаємо) виведеться зразу перед
+								закриваючим тегом(після останнього нащадка).</p>
+							<ul>
+								<li>Пункт №1</li>
+								<li>Пункт №2</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
