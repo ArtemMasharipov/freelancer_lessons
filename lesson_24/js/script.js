@@ -47,7 +47,10 @@ console.log(getElems.getAttribute('data-say-hi'));
 // ======================================================================
 // Задача №2.
 // Получить в переменную элемент с текстом Йончи
-let textElement = [...document.querySelectorAll('*')].find(tag => tag.textContent == 'Йончи')
+let text = 'Йончи';
+let lowerText = text.toLowerCase();
+
+let textElement = [...document.querySelectorAll('*')].find(tag => tag.textContent.toLowerCase() == lowerText);
 console.log(textElement.outerHTML);
 // ======================================================================
 // Задача №3.
