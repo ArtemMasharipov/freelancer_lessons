@@ -50,6 +50,7 @@ body{
 		margin: 0 auto;
 	}
 	.homework {
+		display: flex;
 		height: 450px;
 		width: 800px;
 		border: 2px solid rgba(128, 128, 128, 0.545);
