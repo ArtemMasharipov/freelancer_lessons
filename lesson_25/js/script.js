@@ -7,6 +7,7 @@ const inputCounter = document.querySelector('.search__counter span');
 inputCounter.innerHTML = inputItemLimit;
 
 inputItem.addEventListener("keyup", inputSetCounter);
+inputItem.addEventListener("input", inputSetCounter);
 inputItem.addEventListener("keydown", function (event) {
 	if (event.repeat) inputSetCounter();
 });
